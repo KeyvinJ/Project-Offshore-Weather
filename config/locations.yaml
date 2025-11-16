@@ -1,0 +1,41 @@
+# Project Locations Configuration
+
+my_location:
+  name: "UK_NortheastCoast"
+  description: "UK Northeast Coast - Hartlepool/Middlesbrough area"
+
+  # Center point
+  center_lat: 54.672745
+  center_lon: -1.03719
+
+  # Original coordinates
+  original_coords:
+    - 54.706692, -0.974362
+    - 54.638797, -1.100018
+
+  # Bounding box with 0.5° buffer (north, west, south, east)
+  bbox:
+    north: 55.172745
+    west: -1.53719
+    south: 54.172745
+    east: -0.53719
+
+  # Analysis settings
+  years: [2020, 2021, 2022, 2023]
+
+  # Typical operations in this area
+  typical_operations:
+    - "Offshore wind maintenance"
+    - "Supply vessel operations"
+    - "Jack-up barge operations"
+
+# Example: Aberdeen location
+aberdeen:
+  name: "Aberdeen_NorthSea"
+  center_lat: 57.5
+  center_lon: 0.5
+  bbox:
+    north: 58.0
+    west: -1.0
+    south: 57.0
+    east: 2.0

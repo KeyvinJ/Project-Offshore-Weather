@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(mkdir:*)",
+      "Bash(%HOMEDRIVE%%HOMEPATH%.cdsapirc)",
+      "Bash(echo:*)",
+      "Bash(unzip:*)",
+      "Bash(python:*)",
+      "mcp__ide__executeCode",
+      "Bash(where:*)",
+      "Bash(nul)",
+      "Bash(where python:*)",
+      "Bash(python3:*)",
+      "Bash(conda --version:*)",
+      "Bash($env:null)",
+      "WebSearch",
+      "WebFetch(domain:open-meteo.com)",
+      "Bash(copy:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
