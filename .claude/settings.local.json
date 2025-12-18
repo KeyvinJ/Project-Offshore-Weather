@@ -31,7 +31,14 @@
       "Bash(\"C:\\Users\\k.jonathan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" fix_phase4c_notebook.py)",
       "Bash(if exist PHASE4C_Trivariate_Copula_UltraInstinct.ipynb move PHASE4C_Trivariate_Copula_UltraInstinct.ipynb PHASE4C_OLD_BACKUP.ipynb)",
       "Bash(\"C:\\Users\\k.jonathan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" -m jupyter nbconvert --to notebook --execute notebooks/PHASE5B1_Seasonal_EVA.ipynb --output PHASE5B1_Seasonal_EVA.ipynb --inplace)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(if exist appphase5e_dashboard.py del appphase5e_dashboard.py)",
+      "Bash(if exist apprequirements.txt del apprequirements.txt)",
+      "Bash(if exist appREADME.md del appREADME.md)",
+      "Bash(if exist app rmdir app)",
+      "Bash(ls:*)",
+      "Bash(\"C:\\\\Users\\\\k.jonathan\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe\" -c \"import pickle; import pprint; eva_4a = pickle.load\\(open\\(''data/processed/phase4a/eva_distributions.pkl'', ''rb''\\)\\); print\\(''Keys:'', list\\(eva_4a.keys\\(\\)\\)\\); pprint.pprint\\(eva_4a, depth=2\\)\")",
+      "Bash(\"C:\\\\Users\\\\k.jonathan\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe\" inspect_pickle.py)"
     ],
     "deny": [],
     "ask": []
