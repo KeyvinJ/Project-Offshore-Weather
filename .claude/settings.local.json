@@ -16,7 +16,22 @@
       "Bash($env:null)",
       "WebSearch",
       "WebFetch(domain:open-meteo.com)",
-      "Bash(copy:*)"
+      "Bash(copy:*)",
+      "WebFetch(domain:openmeteo.substack.com)",
+      "Bash(jupyter nbconvert:*)",
+      "Bash(C:Usersk.jonathanAppDataLocalMicrosoftWindowsAppspython3.exe --version)",
+      "Bash(conda run:*)",
+      "Bash(cat:*)",
+      "Bash(findstr:*)",
+      "Bash(if exist PHASE4A_Univariate_EVA.ipynb move PHASE4A_Univariate_EVA.ipynb PHASE4A_Univariate_EVA_OLD.ipynb)",
+      "Bash(move:*)",
+      "Bash(C:Usersk.jonathanAppDataLocalMicrosoftWindowsAppspython.exe --version)",
+      "Bash(\"C:\\Users\\k.jonathan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" --version)",
+      "Bash(\"C:\\Users\\k.jonathan\\AppData\\Local\\Microsoft\\WindowsApps\\python3.exe\" --version)",
+      "Bash(\"C:\\Users\\k.jonathan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" fix_phase4c_notebook.py)",
+      "Bash(if exist PHASE4C_Trivariate_Copula_UltraInstinct.ipynb move PHASE4C_Trivariate_Copula_UltraInstinct.ipynb PHASE4C_OLD_BACKUP.ipynb)",
+      "Bash(\"C:\\Users\\k.jonathan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" -m jupyter nbconvert --to notebook --execute notebooks/PHASE5B1_Seasonal_EVA.ipynb --output PHASE5B1_Seasonal_EVA.ipynb --inplace)",
+      "Bash(test:*)"
     ],
     "deny": [],
     "ask": []

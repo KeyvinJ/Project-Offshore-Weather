@@ -97,6 +97,7 @@ for year in range(start_year, end_year + 1):
             "ocean_current_velocity",    # m/s
             "ocean_current_direction"    # degrees
         ],
+        "models": "era5_ocean",  # Use ERA5-Ocean for 2015-2025 coverage
         "start_date": start_date,
         "end_date": end_date,
     }
